@@ -1,0 +1,41 @@
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgb(206, 206, 206), rgb(0, 0, 0));
+}
+
+.box-cadastro{
+    width: 30%;
+    background-color: cadetblue;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+fieldset{
+    border: 3px solid rgb(85, 155, 0);  
+
+}
+legend{
+    border: 3px solid rgb(85, 155, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(85, 155, 0);
+}
+.input-box{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+}
