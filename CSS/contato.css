@@ -1,0 +1,7 @@
+textarea{
+    resize: none;
+    padding: 2px;
+}
+textarea::placeholder{
+    color: rgb(145, 145, 145);
+}
