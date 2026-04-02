@@ -1,0 +1,111 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.produtos{
+    background: rgb(99, 99, 99);
+    background: linear-gradient(45deg, rgba(114, 114, 114, 0.8) 0%, rgba(199, 199, 199, 0.5)100%), url(../IMG/BIKE\ COM\ PNG.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+.area-produtos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.container{
+    background-color: rgba(119, 118, 118, 0.863);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.863);
+    padding: 38px;
+    border-radius: 12px;
+    width: 400px;
+    backdrop-filter: blur (10px) saturate (120%);
+    -webkit-backdrop-filter: blur (10px) saturate(120%);
+    gap: 15px;
+    filter: drop-shadow(0 30px 10px rgba(104, 104, 104, 0.863));
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.banner-image{
+    background-image: url('../IMG/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.863);
+}
+.title-card{
+    font-family: 'Righteous', sans-serif;
+    color: rgba(155, 46, 46, 0.863);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+
+}
+.subtitle{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.button-wrapper{
+    margin-top: 18px;
+    width: 100%;
+    display: flex;
+    gap: 40px;  
+}
+.btn-produtos{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn-produtos + .btn-produtos{
+    margin-left: 10px;
+}
+.outline{
+    background: transparent;
+    color: var(--cor-menu);
+    border: 1px solid var(--cor-menu);
+    transition: all 0.3s ease;
+}
+.outline:hover{
+    transform: scale(1.125);
+    color: rgba(104, 104, 104, 0.863);
+    border-color: rgba(104, 104, 104, 0.863);
+    transition: all 0.3s ease;
+}
+.fill{
+    background: rgba(0, 0, 0, 0.863);
+    color: rgba(104, 104, 104, 0.863);
+    font-weight: bold;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0);
+}
+.fill:hover{
+    transform: scale(1.125);
+    border-color: rgba(0, 0, 0, 0.863);
+    filter: drop-shadow(0 10px 5px rgba(126, 126, 126, 0.863));
+    transition: all ;
+}
