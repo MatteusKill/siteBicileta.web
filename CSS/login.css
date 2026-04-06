@@ -1,0 +1,105 @@
+.login{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    max-height: 100vh;
+}
+.area-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.area-login-foto{
+    width: 50%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+}
+.area-login-foto img{
+    height: 100%;
+    object-fit: cover;
+}
+.area-login-form{
+    width: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.area-login-form form{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(207, 25, 25);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title-login{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+    padding: 5px;
+}
+.area-inputs-login{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.label-login{
+    font-size: 1.4rem;
+    color: aquamarine;
+}
+.input-login{
+    border: none;
+    outline: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    background-color: black;
+}
+.area-itens-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.area-conectado{
+    display: flex;
+
+}
+.area-conectado input{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.area-itens-login p a{
+    color: rebeccapurple;
+}
+.btn-login{
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    width: 100px;
+    margin: auto;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    justify-content: center;
+}
+.btn-login:hover{
+    color: green;
+}
+.area-logar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area-icons-login{
+    display: flex;
+    justify-content: center;
+}
+.area-icons-login img{
+
+}
